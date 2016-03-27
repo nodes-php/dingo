@@ -1,6 +1,6 @@
 {
-    "name": "dingo/api",
-    "description": "A RESTful API package for the Laravel and Lumen frameworks.",
+    "name": "nodes/dingo",
+    "description": "A Fork of the awesome RESTful API package Dingo",
     "keywords": ["restful", "api", "laravel", "dingo"],
     "license": "BSD-3-Clause",
     "authors": [
