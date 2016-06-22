@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "dingo/blueprint": "dev-master",
+        "nodes/blueprint": "^1.0",
         "doctrine/annotations": "1.2.*",
         "illuminate/routing": "5.1.* || 5.2.*",
         "illuminate/support": "5.1.* || 5.2.*",
@@ -49,7 +49,5 @@
         "psr-4": {
             "Dingo\\Api\\Tests\\": "tests/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
