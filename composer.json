@@ -24,7 +24,7 @@
         "illuminate/filesystem": "^5.1",
         "illuminate/log": "^5.1",
         "illuminate/pagination": "^5.1",
-        "laravel/lumen-framework": "5.1.*||5.2.*",
+        "laravel/lumen-framework": "^5.1",
         "lucadegasperi/oauth2-server-laravel": "5.0.*",
         "mockery/mockery": "~0.9",
         "phpunit/phpunit": "^4.8 || ^5.0",
