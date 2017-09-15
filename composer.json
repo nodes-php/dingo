@@ -3,12 +3,10 @@
     "description": "A Fork of the awesome RESTful API package Dingo",
     "keywords": ["restful", "api", "laravel", "dingo"],
     "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Jason Lewis",
-            "email": "jason.lewis1991@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Jason Lewis",
+        "email": "jason.lewis1991@gmail.com"
+    }],
     "require": {
         "php": "^5.5.9 || ^7.0",
         "nodes/blueprint": "^1.0",
@@ -49,5 +47,21 @@
         "psr-4": {
             "Dingo\\Api\\Tests\\": "tests/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Dingo\\Api\\Provider\\LaravelServiceProvider"
+            ],
+            "aliases": {
+                "API": "Dingo\\Api\\Facade\\API",
+                "Route": "Dingo\\Api\\Facade\\Route"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
